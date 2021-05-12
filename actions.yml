@@ -1,0 +1,7 @@
+name: "npm audit"
+
+description: "npm audit"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
