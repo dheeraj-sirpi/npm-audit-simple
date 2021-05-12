@@ -1,9 +1,8 @@
 FROM node:slim
 
-COPY package*.json ./
-
+COPY . .
 RUN npm install
 
-COPY . .
+
 
 CMD [ "npm", "audit" ]
