@@ -1,8 +1,8 @@
 FROM node:slim
 
 COPY . .
-RUN npm install
+#RUN npm install
 
 
 
-CMD [ "npm", "audit" ]
+CMD [ "ls", "-al" ]
