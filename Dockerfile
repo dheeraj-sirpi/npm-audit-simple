@@ -4,4 +4,4 @@ COPY . .
 
 RUN pip install flake8
 
-CMD [ "bash", "./entrypoint.sh" ]
+CMD [ "ls", "-al" ]
