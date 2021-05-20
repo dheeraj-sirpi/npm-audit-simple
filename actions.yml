@@ -1,6 +1,6 @@
-name: "npm audit"
+name: "flake8"
 
-description: "npm audit"
+description: "flake8"
 
 runs:
   using: "docker"
